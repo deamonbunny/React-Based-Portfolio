@@ -1,22 +1,16 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 export default function Resume() {
   return (
-    <div>
+    <div class="title-spacer container">
       <h2>Resume</h2>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <br></br>
+      <Card id="resume-card">
+        <Card.Text>      
+          <h3> Please Take a look at my resume here -&gt; <a href='https://docs.google.com/document/d/1JqCClcdIdsr6V8_a0eUriekjypOkHUkWy0_I4aCWZ2U/edit?usp=sharing' className='underline'>My Resume</a></h3>
+        </Card.Text>
+      </Card>
     </div>
   );
 }

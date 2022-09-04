@@ -35,9 +35,18 @@ p {
     padding-right: 2em;
 }
 
+h3 {
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
 h2 {
     color: white;
     text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px white solid;
 }
 
 .navbar {
@@ -54,4 +63,28 @@ a:hover, a:focus {
     color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
+}
+
+.card {
+    margin: 4em auto;
+    background-image: url(../assets/images/header-background.jpg);
+    width: 35rem;
+}
+
+.card-title {
+    color: white;
+    text-align: center;
+    border-bottom: 2px white solid;
+}
+
+.title-spacer {
+    margin: 4em auto;
+}
+
+#contact-card {
+    padding: 1em;
+}
+
+#resume-card {
+    padding: 1em;
 }
