@@ -3,8 +3,9 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer class= "resume-align bg-dark" id="footer">
-            <a href="https://github.com/deamonbunny">Github</a>
+        <footer class= "resume-align bg-dark text-light text-center" id="footer">
+            <br></br>
+            <p>Copyright 2022</p>
         </footer>
     );
 }

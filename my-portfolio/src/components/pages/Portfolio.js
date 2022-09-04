@@ -3,7 +3,7 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
